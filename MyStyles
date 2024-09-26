@@ -1,0 +1,16 @@
+.box{
+    transition: box-shadow .3s;
+    width: 400px;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(132, 132, 132);
+    text-align: center;
+    border: 5px dashed rgb(81, 30, 175);
+    padding-top: 10px 0;
+    margin: 50px 25px;
+    line-height: 25
+}
+.box:hover{
+    background-color:rgb(13, 158, 148);
+    box-shadow: 30px 10px 15px lightblue;
+}
